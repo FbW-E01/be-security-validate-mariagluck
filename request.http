@@ -1,0 +1,65 @@
+
+
+POST http://localhost:9005/birds
+Content-Type: application/json
+
+{
+    "species": "Martin Pescador",
+    "notes": "beautiful bird spotted eating and picking worms",
+    "estimatedAmount": 26
+
+}
+
+####
+
+POST http://localhost:9005/birds
+Content-Type: application/json
+
+{
+    "species": "tu",
+    "notes": "uff77",
+    "estimatedAmount": "twenty"
+
+}
+
+####
+
+POST http://localhost:9005/birds
+Content-Type: application/json
+
+{
+    "species": "Pájaro Carpintero",
+    "notes": "tunning up his rythm by knocking a tree",
+    "estimatedAmount": 30
+
+}
+
+###
+POST http://localhost:9005/birds
+Content-Type: application/json
+
+{
+    "species": "Pelicano Tropical",
+    "notes": "Flying over our head with mouth full of fish",
+    "estimatedAmount": 7
+
+}
+
+###
+
+POST http://localhost:9005/birds
+Content-Type: application/json
+
+{
+    "species": "Pink Flamingo",
+    "notes": "standing up right on one leg",
+    "estimatedAmount": 50
+
+}
+
+####
+GET http://localhost:9005/birds
+
+
+
+###
