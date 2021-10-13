@@ -2,8 +2,6 @@ import express from 'express';
 import { validationResult } from 'express-validator';
 import birdsValidators from './validators/birdsValidators.js';
 
-const birdSightings = []; 
-
 const server = express();
 server.use(express.json());
 
